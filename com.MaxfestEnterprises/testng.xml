@@ -1,0 +1,20 @@
+
+<suite name="Suite">
+
+<listeners>
+		<listener class-name="retry.RetryListener" />
+		<listener class-name="extentReport.TestListener" />
+	</listeners>
+
+  <test thread-count="5" name="Test">
+  <parameter name="browser" value="chrome" > </parameter>
+    <classes>
+      <!-- <class name="testCases.UsersPageTestCases"/>
+      <class name="testCases.LogInPageTestCases"/>
+      <class name="testCases.ImportContactsPageTestCases"/>-->
+      <class name="testCases.HomePageTestCases"/>
+      <class name="testCases.ListProductPageTestCases"/>
+    </classes>
+  </test> <!-- Test -->
+  
+</suite> <!-- Suite -->

@@ -1,0 +1,77 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results ignored="0" total="3" passed="3" failed="0" skipped="0">
+  <reporter-output>
+  </reporter-output>
+  <suite started-at="2025-03-22T00:59:54 IST" name="Suite" finished-at="2025-03-22T01:00:13 IST" duration-ms="18792">
+    <groups>
+      <group name="Group1">
+        <method signature="HomePageTestCases.verifySignOut()[pri:0, instance:testCases.HomePageTestCases@a8ef162]" name="verifySignOut" class="testCases.HomePageTestCases"/>
+        <method signature="LogInPageTestCases.verifyTheExactPageIsOpenedWhileHittingTheURL()[pri:1, instance:testCases.LogInPageTestCases@1169afe1]" name="verifyTheExactPageIsOpenedWhileHittingTheURL" class="testCases.LogInPageTestCases"/>
+        <method signature="LogInPageTestCases.verifySuccessfulLogIn()[pri:2, instance:testCases.LogInPageTestCases@1169afe1]" name="verifySuccessfulLogIn" class="testCases.LogInPageTestCases"/>
+      </group> <!-- Group1 -->
+    </groups>
+    <test started-at="2025-03-22T00:59:54 IST" name="GroupingTest" finished-at="2025-03-22T01:00:13 IST" duration-ms="18792">
+      <class name="testCases.LogInPageTestCases">
+        <test-method is-config="true" signature="beforeMethod(java.lang.String)[pri:0, instance:testCases.LogInPageTestCases@1169afe1]" started-at="2025-03-22T01:00:03 IST" name="beforeMethod" finished-at="2025-03-22T01:00:06 IST" duration-ms="2823" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[chrome]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- beforeMethod -->
+        <test-method signature="verifyTheExactPageIsOpenedWhileHittingTheURL()[pri:1, instance:testCases.LogInPageTestCases@1169afe1]" started-at="2025-03-22T01:00:06 IST" name="verifyTheExactPageIsOpenedWhileHittingTheURL" finished-at="2025-03-22T01:00:06 IST" duration-ms="145" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- verifyTheExactPageIsOpenedWhileHittingTheURL -->
+        <test-method is-config="true" signature="afterMethod()[pri:0, instance:testCases.LogInPageTestCases@1169afe1]" started-at="2025-03-22T01:00:06 IST" name="afterMethod" finished-at="2025-03-22T01:00:07 IST" duration-ms="185" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- afterMethod -->
+        <test-method is-config="true" signature="beforeMethod(java.lang.String)[pri:0, instance:testCases.LogInPageTestCases@1169afe1]" started-at="2025-03-22T01:00:07 IST" name="beforeMethod" finished-at="2025-03-22T01:00:09 IST" duration-ms="2631" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[chrome]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- beforeMethod -->
+        <test-method signature="verifySuccessfulLogIn()[pri:2, instance:testCases.LogInPageTestCases@1169afe1]" started-at="2025-03-22T01:00:09 IST" name="verifySuccessfulLogIn" finished-at="2025-03-22T01:00:13 IST" duration-ms="3568" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- verifySuccessfulLogIn -->
+        <test-method is-config="true" signature="afterMethod()[pri:0, instance:testCases.LogInPageTestCases@1169afe1]" started-at="2025-03-22T01:00:13 IST" name="afterMethod" finished-at="2025-03-22T01:00:13 IST" duration-ms="215" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- afterMethod -->
+      </class> <!-- testCases.LogInPageTestCases -->
+      <class name="testCases.HomePageTestCases">
+        <test-method is-config="true" signature="beforeMethod(java.lang.String)[pri:0, instance:testCases.HomePageTestCases@a8ef162]" started-at="2025-03-22T00:59:54 IST" name="beforeMethod" finished-at="2025-03-22T00:59:57 IST" duration-ms="3254" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[chrome]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- beforeMethod -->
+        <test-method signature="verifySignOut()[pri:0, instance:testCases.HomePageTestCases@a8ef162]" started-at="2025-03-22T00:59:57 IST" name="verifySignOut" finished-at="2025-03-22T01:00:03 IST" duration-ms="5581" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- verifySignOut -->
+        <test-method is-config="true" signature="afterMethod()[pri:0, instance:testCases.HomePageTestCases@a8ef162]" started-at="2025-03-22T01:00:03 IST" name="afterMethod" finished-at="2025-03-22T01:00:03 IST" duration-ms="319" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- afterMethod -->
+      </class> <!-- testCases.HomePageTestCases -->
+    </test> <!-- GroupingTest -->
+  </suite> <!-- Suite -->
+</testng-results>

@@ -1,0 +1,25 @@
+<suite name="Suite">
+
+<listeners>
+		 <!--<listener class-name="retry.RetryListener" />-->
+		<listener class-name="extentReport.TestListener" />
+</listeners>
+
+	<test name="GroupingTest">
+		<parameter name="browser" value="chrome"> </parameter>
+		<groups>
+			<run>
+				<include name="Launch"></include>
+				<include name="Group1"></include>
+				<include name="End"></include>
+			</run>
+		</groups>
+
+		<classes>
+			<class name="testCases.HomePageTestCases" />
+			<class name="testCases.LogInPageTestCases" />
+		</classes>
+
+
+	</test> <!--Test -->
+</suite> <!--Suite -->

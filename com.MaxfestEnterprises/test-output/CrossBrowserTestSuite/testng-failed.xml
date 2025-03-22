@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
+<suite thread-count="2" parallel="tests" name="Failed suite [CrossBrowserTestSuite]">
+  <test thread-count="2" parallel="tests" name="FirefoxTest(failed)">
+    <parameter name="browser" value="firefox"/>
+    <classes>
+      <class name="testCases.ListProductPageTestCases">
+        <methods>
+          <include name="verifyTheOptionsPresentInProductTypeDropDownBox"/>
+          <include name="afterMethod"/>
+          <include name="verifyTheProductTypeDropDownBoxIsNotMultiple"/>
+          <include name="beforeMethod"/>
+          <include name="createReport"/>
+        </methods>
+      </class> <!-- testCases.ListProductPageTestCases -->
+    </classes>
+  </test> <!-- FirefoxTest(failed) -->
+</suite> <!-- Failed suite [CrossBrowserTestSuite] -->
